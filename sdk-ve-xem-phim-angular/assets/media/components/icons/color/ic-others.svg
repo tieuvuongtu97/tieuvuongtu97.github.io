@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+  <g id="Group_16450" data-name="Group 16450" transform="translate(-210 -217)">
+    <path id="Frame" d="M0,0H24V24H0Z" transform="translate(210 217)" fill="none"/>
+    <g id="document-text" transform="translate(211.5 219)">
+      <path id="Path_58123" data-name="Path 58123" d="M16.9,8.552H14.588a3.445,3.445,0,0,1-3.44-3.44V2.8a.8.8,0,0,0-.8-.8H6.956A4.222,4.222,0,0,0,2.5,6.456v7.088A4.222,4.222,0,0,0,6.956,18h6.288A4.222,4.222,0,0,0,17.7,13.544V9.352A.8.8,0,0,0,16.9,8.552Z" fill="#f9b533" opacity="0.4"/>
+      <path id="Path_58124" data-name="Path 58124" d="M15.576,2.171a.523.523,0,0,0-.9.352V5.315a2.181,2.181,0,0,0,2.2,2.136c.76.008,1.816.008,2.72.008a.5.5,0,0,0,.376-.856c-1.152-1.16-3.216-3.248-4.4-4.432Z" transform="translate(-2.436 -0.003)" fill="#f9b533"/>
+      <path id="Path_58125" data-name="Path 58125" d="M12.15,13.45H7.35a.6.6,0,0,1,0-1.2h4.8a.6.6,0,1,1,0,1.2Z" transform="translate(-0.85 -2.05)" fill="#f9b533"/>
+      <path id="Path_58126" data-name="Path 58126" d="M10.55,17.45H7.35a.6.6,0,1,1,0-1.2h3.2a.6.6,0,1,1,0,1.2Z" transform="translate(-0.85 -2.85)" fill="#f9b533"/>
+    </g>
+  </g>
+</svg>

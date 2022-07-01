@@ -1,0 +1,88 @@
+:root {
+    --azure: #E1721C;
+    --primary: #E1721C;
+    --azure-hover: #c86519;
+    --primary-hover: #c86519;
+    --azure-light: #F6EEE8;
+    --azure-light-hover: #eedfd3;
+    --primary-light: #F6EEE8;
+    --primary-light-hover: #eedfd3;
+    --ink-light: #5A7087;
+    --ink-lighter: #BFCCD9;
+    --ink-active: #0B0D0F;
+    --primary-text: #252A31;
+    --secondary-text: #21262C;
+    --white: #ffffff;
+    --porcelain: #EFF2F5;
+    --porcelain-hover: #E3E8ED;
+    --porcelain-light: #F5F7F9;
+    --porcelain-dark: #EAEDF1;
+    --porcelain-lighthover: #E9EDF2;
+    --yellow: #FFD936;
+    --yellow1: #EBB536;
+    --orange: #d16100;
+    --orange1: #ef8800;
+    --orange2: #F9B533;
+    --warning: #E07E06;
+    --red: #C91D1D;
+    --red-light: #FAEAEA;
+    --red-light-hover: #F4D2D2;
+    --blue-light: #1D9EC9;
+    --green-success: #29A339;
+    --green-light: #EEF6EF;
+    --shadow-main: rgba(37, 42, 49, 16%);
+    --bg-overlay: rgba(37, 42, 49, .5);
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@300;400;500;600;700&display=swap');
+
+body {
+    max-width: 100%;
+    width: 100%;
+    min-height: 100vh;
+    font-size: var(--fz-p2);
+    line-height: var(--lineh-p2);
+}
+
+* {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    color: var(--secondary-text);
+    font-weight: var(--regular);
+}
+
+.color-azure {
+    color: var(--azure);
+}
+
+.color-ink-light {
+    color: var(--ink-light);
+}
+
+.color-primary {
+    color: var(--primary);
+}
+
+.color-text-primary {
+    color: var(--primary-text);
+}
+
+.color-text-secondary {
+    color: var(--secondary-text);
+}
+
+.color-blue-light {
+    color: var(--blue-light);
+}
+
+.color-red,
+.color-invalid {
+    color: var(--red);
+}
+
+.color-warning {
+    color: var(--warning);
+}
+
+.color-success {
+    color: var(--green-success);
+}

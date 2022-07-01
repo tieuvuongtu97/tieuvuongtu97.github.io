@@ -1,0 +1,59 @@
+@import "root.css";
+@import "custom-select2.css";
+
+/* css header */
+.header {
+    background: var(--white);
+    box-shadow: 0 0 4px 0 var(--shadow-main);
+    color: var(--ink-light);
+    font-weight: var(--medium);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 999;
+}
+header + * {
+    padding-top: 60px;
+}
+.header-wrap {
+    max-width: 1224px;
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    padding: 8px 12px;
+    overflow-x: auto;
+}
+.header-wrap .header-item{
+    white-space: nowrap;
+    font-size: var(--fz-p1);
+    line-height: var(--lineh-p1);
+}
+.header-wrap .header-item:hover,
+.header-wrap .header-item.active{
+    color: var(--primary);
+}
+.header-wrap .header-item:not(:last-child){
+    margin-right:32px
+}
+.header .item-support{
+    margin-left: auto;
+    font-size: var(--fz-p2);
+    display: flex;
+    align-items: center;
+}
+.header .item-support a{
+    display: inline-block;
+}
+.btn-support {
+    height: 44px;
+    padding: 12px;
+}
+.btn-helps-center,
+.btn-helps-center:hover {
+    color: var(--secondary-text);
+}
+.btn-support .ic {
+    min-width: 24px;
+}
+/* end:css header */
